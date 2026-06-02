@@ -1,0 +1,56 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.pem
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.history/
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+db.sqlite3
+/pagina_web/backend/db.sqlite3
+/pagina_web/backend/venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+.env*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+.pnp.*
+.yarn/*
+/pagina_web/frontend/node_modules/
+/pagina_web/frontend/.next/
+/pagina_web/frontend/out/
+/pagina_web/frontend/build/
+/pagina_web/frontend/coverage/
+
+# Logs
+*.log
+
+# Project specific
+.history/
