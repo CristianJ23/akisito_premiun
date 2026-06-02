@@ -50,8 +50,8 @@ export default function Footer() {
               Contacto
             </h4>
             <div className="space-y-4 text-brand-medium-gray text-[13px] font-inter">
-              <p>hola@akisito.ec</p>
-              <p>+593 99 999 9999</p>
+              <p>akisito.kriss@gmail.com</p>
+              <p>+593 961239706</p>
               <p>Loja, Ecuador</p>
               <p className="mt-8 pt-8 border-t border-brand-gold/10 leading-relaxed italic opacity-60">
                 {/* Akisito es el nombre comercial de la plataforma Sendai, desarrollada en la Universidad Nacional de Loja. */}
@@ -63,7 +63,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-brand-gold/5 text-center">
           <p className="text-brand-medium-gray text-[11px] font-inter">
-            © 2025 Akisito · Todos los derechos reservados
+            © 2026 Akisito · Todos los derechos reservados
           </p>
         </div>
       </div>
