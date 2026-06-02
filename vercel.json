@@ -1,6 +1,0 @@
-{
-  "rootDirectory": "pagina_web/frontend",
-  "buildCommand": "npm run build",
-  "installCommand": "npm install",
-  "framework": "nextjs"
-}
