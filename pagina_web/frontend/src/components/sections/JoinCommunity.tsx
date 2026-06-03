@@ -45,7 +45,7 @@ export default function JoinCommunity() {
                 Sé parte de la comunidad
               </Button>
               <Button 
-                variant="bordered"
+                variant="outline"
                 className="border-brand-gold/30 text-brand-off-white px-10 py-7 font-inter font-semibold text-[13px] uppercase rounded-none hover:bg-brand-gold/10 transition-all"
               >
                 Conoce más
