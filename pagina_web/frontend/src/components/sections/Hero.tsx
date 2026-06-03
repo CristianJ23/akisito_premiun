@@ -96,11 +96,11 @@ export default function Hero() {
                        <span className="text-[10px] font-semibold text-brand-gold">Akisito</span>
                      </div>
                      <p className="text-[11px] text-brand-off-white mb-2 font-inter leading-tight">
-                       Te recomiendo <strong>Café del Nogal</strong>. Es famoso por su tamal lojano y café de altura.
+                       Te recomiendo locales validados por nuestra comunidad. Expertos en sabor lojano.
                      </p>
                      <div className="border border-brand-gold/20 rounded-lg p-2 bg-brand-black/40">
                         <div className="flex justify-between items-start">
-                          <span className="text-[10px] font-bold text-brand-off-white">Café del Nogal</span>
+                          <span className="text-[10px] font-bold text-brand-off-white">Gastronomía Lojana</span>
                           <span className="text-[8px] bg-brand-gold text-brand-black px-1 rounded font-bold">✦ Akisito</span>
                         </div>
                      </div>

@@ -13,6 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className="dark">
+      <head>
+        <link rel="icon" href="/../video/logo reducido.png" />
+      </head>
       <body>
         {children}
       </body>

@@ -20,8 +20,10 @@ export default function Affiliate() {
     e.preventDefault();
     setStatus("loading");
 
+    const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
+
     try {
-      const response = await fetch("http://localhost:8000/api/affiliations/", {
+      const response = await fetch(`${API_URL}/affiliations/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
