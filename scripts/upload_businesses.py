@@ -3,8 +3,9 @@ import psycopg2
 import os
 from dotenv import load_dotenv
 
-# Cargar variables de entorno desde el backend si existe, o localmente
+# Cargar variables de entorno (busca en el backend o en la carpeta actual)
 load_dotenv('../pagina_web/backend/.env')
+load_dotenv('.env')
 
 def upload_data():
     # Obtener DATABASE_URL
