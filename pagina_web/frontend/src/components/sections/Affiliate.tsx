@@ -11,7 +11,7 @@ export default function Affiliate() {
     email: "",
     phone: "",
     reason: "",
-    agreement: false,
+    terms_accepted: false,
   });
 
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
@@ -190,18 +190,20 @@ export default function Affiliate() {
                   <div>
                     <Label>¿Por qué tu lugar es auténtico?</Label>
                     <TextArea 
-                      placeholder="Cuéntanos brevemente la historia de tu negocio..."
+                      placeholder="Cuéntanos brevemente la historia de tu negocio, qué platos lo hacen único y por qué debería tener el sello Akisito..."
                       value={formData.reason}
                       onChange={(e: any) => setFormData({...formData, reason: e.target.value})}
                       required
+                      minRows={6}
+                      className="w-full"
                     />
                   </div>
 
                   <div className="flex items-center gap-2 mt-4">
                     <input 
                       type="checkbox"
-                      checked={formData.agreement}
-                      onChange={(e) => setFormData({...formData, agreement: e.target.checked})}
+                      checked={formData.terms_accepted}
+                      onChange={(e) => setFormData({...formData, terms_accepted: e.target.checked})}
                       className="accent-brand-gold"
                       required
                     />

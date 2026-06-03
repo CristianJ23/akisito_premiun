@@ -1,6 +1,7 @@
 [
   {
     "name": "Restaurante El Lojano",
+    "business_type": "RESTAURANTE",
     "description": "El mejor tamal lojano y café de altura en el centro de la ciudad.",
     "address": "Calle Bolívar y 10 de Agosto",
     "phone": "+593 7 123 4567",
@@ -8,9 +9,18 @@
   },
   {
     "name": "Cafetería La Catedral",
+    "business_type": "CAFETERIA",
     "description": "Un lugar acogedor con vista a la plaza central. Especialidad en postres tradicionales.",
     "address": "Calle Bernardo Valdivieso",
     "phone": "+593 7 987 6543",
     "image_url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "name": "La Hueca de Mamá",
+    "business_type": "HUECA",
+    "description": "Auténtico sabor casero. El mejor repe de la ciudad.",
+    "address": "Av. Salvador Bustamante",
+    "phone": "+593 7 111 2222",
+    "image_url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
   }
 ]

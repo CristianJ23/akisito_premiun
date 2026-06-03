@@ -31,11 +31,12 @@ def upload_data():
         
         for b in businesses:
             query = f"""
-            INSERT INTO {table_name} (name, description, address, phone, image_url, is_active, created_at)
-            VALUES (%s, %s, %s, %s, %s, %s, NOW())
+            INSERT INTO {table_name} (name, business_type, description, address, phone, image_url, is_active, created_at)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, NOW())
             """
             cur.execute(query, (
                 b['name'],
+                b.get('business_type', 'RESTAURANTE'),
                 b['description'],
                 b['address'],
                 b.get('phone', ''),

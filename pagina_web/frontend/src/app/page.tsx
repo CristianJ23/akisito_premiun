@@ -4,10 +4,10 @@ import Hero from "@/components/sections/Hero";
 import ValueProp from "@/components/sections/ValueProp";
 import HowItWorks from "@/components/sections/HowItWorks";
 import Gallery from "@/components/sections/Gallery";
-import Testimonials from "@/components/sections/Testimonials";
 import Download from "@/components/sections/Download";
 import Affiliate from "@/components/sections/Affiliate";
 import Allies from "@/components/sections/Allies";
+import JoinCommunity from "@/components/sections/JoinCommunity";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       <ValueProp />
       <HowItWorks />
       <Gallery />
-      <Testimonials />
+      <JoinCommunity />
       <Download />
       <Affiliate />
       <Allies />
