@@ -1,0 +1,36 @@
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
+
+export interface Business {
+  id: number;
+  name: string;
+  description: string;
+  address: string;
+  phone: string;
+  image_url: string;
+  is_active: boolean;
+  created_at: string;
+}
+
+export async function getBusinesses(): Promise<Business[]> {
+  const res = await fetch(`${API_URL}/businesses/`, {
+    next: { revalidate: 3600 } // Revalidate every hour
+  });
+  
+  if (!res.ok) {
+    throw new Error('Failed to fetch businesses');
+  }
+  
+  return res.json();
+}
+
+export async function getBusiness(id: string): Promise<Business> {
+  const res = await fetch(`${API_URL}/businesses/${id}/`, {
+    next: { revalidate: 3600 }
+  });
+  
+  if (!res.ok) {
+    throw new Error('Failed to fetch business');
+  }
+  
+  return res.json();
+}

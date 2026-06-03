@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Restaurante El Lojano",
+    "description": "El mejor tamal lojano y café de altura en el centro de la ciudad.",
+    "address": "Calle Bolívar y 10 de Agosto",
+    "phone": "+593 7 123 4567",
+    "image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "name": "Cafetería La Catedral",
+    "description": "Un lugar acogedor con vista a la plaza central. Especialidad en postres tradicionales.",
+    "address": "Calle Bernardo Valdivieso",
+    "phone": "+593 7 987 6543",
+    "image_url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80"
+  }
+]

@@ -7,11 +7,11 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    { name: "Inicio", href: "#inicio" },
-    { name: "Cómo funciona", href: "#como-funciona" },
-    { name: "Lugares validados", href: "#lugares" },
-    { name: "Nosotros", href: "#nosotros" },
-    { name: "Afíliate", href: "#afiliate" },
+    { name: "Inicio", href: "/" },
+    { name: "Cómo funciona", href: "/#como-funciona" },
+    { name: "Locales", href: "/locales" },
+    { name: "Nosotros", href: "/#nosotros" },
+    { name: "Afíliate", href: "/#afiliate" },
   ];
 
   const buttonBase = "inline-flex items-center justify-center text-[12px] font-inter font-semibold uppercase tracking-wider h-10 px-6 transition-all";
@@ -22,7 +22,7 @@ export default function Navbar() {
         
         {/* Logo */}
         <div className="flex items-center">
-          <Link href="#inicio" className="flex items-center gap-2 no-underline">
+          <Link href="/" className="flex items-center gap-2 no-underline">
             <img src="/images/akisito_dorado.png" alt="Akisito" className="h-8 md:h-40 w-auto" />
           </Link>
         </div>
