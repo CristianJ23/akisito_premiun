@@ -194,7 +194,7 @@ export default function Affiliate() {
                       value={formData.reason}
                       onChange={(e: any) => setFormData({...formData, reason: e.target.value})}
                       required
-                      minRows={6}
+                      rows={6}
                       className="w-full"
                     />
                   </div>
