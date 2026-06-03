@@ -12,15 +12,22 @@ export interface Business {
 }
 
 export async function getBusinesses(): Promise<Business[]> {
-  const res = await fetch(`${API_URL}/businesses/`, {
-    next: { revalidate: 3600 } // Revalidate every hour
-  });
-  
-  if (!res.ok) {
-    throw new Error('Failed to fetch businesses');
+  console.log(`Fetching businesses from: ${API_URL}/businesses/`);
+  try {
+    const res = await fetch(`${API_URL}/businesses/`, {
+      cache: 'no-store' // Disable cache for real-time updates
+    });
+    
+    if (!res.ok) {
+      console.error(`Fetch error: ${res.status} ${res.statusText}`);
+      throw new Error('Failed to fetch businesses');
+    }
+    
+    return res.json();
+  } catch (error) {
+    console.error('API Error:', error);
+    throw error;
   }
-  
-  return res.json();
 }
 
 export async function getBusiness(id: string): Promise<Business> {
