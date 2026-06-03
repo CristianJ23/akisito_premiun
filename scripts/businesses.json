@@ -1,26 +1,26 @@
 [
   {
-    "name": "Restaurante El Lojano",
-    "business_type": "RESTAURANTE",
-    "description": "El mejor tamal lojano y café de altura en el centro de la ciudad.",
-    "address": "Calle Bolívar y 10 de Agosto",
-    "phone": "+593 7 123 4567",
-    "image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+    "name": "Cafetería Emporio Lojanno",
+    "business_type": "CAFETERIA",
+    "description": "Emporio Lojano más que una cafetería es una casa patrimonial de más de 100 años ubicada en el corazón de la ciudad. Además de su oferta culinaria es una plataforma para el arte y la cultura local, con exposición y venta de obras artísticas",
+    "address": "10 de agosto entre Sucre y Bolívar",
+    "phone": "+593 961482821",
+    "image_url": "https://res.cloudinary.com/dpidjttot/image/upload/v1780527750/3_vujwki.png"
   },
   {
-    "name": "Cafetería La Catedral",
-    "business_type": "CAFETERIA",
+    "name": "Antojitos lojanos",
+    "business_type": "Restaurante",
     "description": "Un lugar acogedor con vista a la plaza central. Especialidad en postres tradicionales.",
     "address": "Calle Bernardo Valdivieso",
-    "phone": "+593 7 987 6543",
-    "image_url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80"
+    "phone": "+593 960469325",
+    "image_url": "https://res.cloudinary.com/dpidjttot/image/upload/v1780528102/WhatsApp_Image_2026-06-03_at_6.07.48_PM_u3eaam.jpg"
   },
   {
-    "name": "La Hueca de Mamá",
-    "business_type": "HUECA",
-    "description": "Auténtico sabor casero. El mejor repe de la ciudad.",
-    "address": "Av. Salvador Bustamante",
-    "phone": "+593 7 111 2222",
-    "image_url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
+    "name": "Cafetería Mandala",
+    "business_type": "CAFETERIA",
+    "description": "Cafeterí que fusiona los sabores españoles con las tradiciones culinarias de Loja. Un espacio para disfrutar de la gastronomía española en el corazón de la ciudad.",
+    "address": "Av. Pío Jaramillo Alvarado 527-42 entre Chile y Malvinas",
+    "phone": "+593 990167498",
+    "image_url": "https://res.cloudinary.com/dpidjttot/image/upload/v1780528398/468433237_1955813028231911_1675411111467773062_n.jpg_mpqdjc.jpg"
   }
 ]
